@@ -6,11 +6,11 @@ import os
 from firebase_admin import credentials, db, firestore, initialize_app
 
 load_dotenv()
-token = os.environ.get('GOOGLE_APP_CRED')
+TOKEN = os.environ.get('GOOGLE_APP_CRED')
 app = Flask(__name__)
 
 #initializing firebase obj
-cred = firebase_admin.credentials.Certificate(token)
+cred = firebase_admin.credentials.Certificate(TOKEN)
 default_app = firebase_admin.initialize_app(cred, {"databaseURL": "https://greenthumb-9d393-default-rtdb.firebaseio.com"})
 
 ref = db.reference()
