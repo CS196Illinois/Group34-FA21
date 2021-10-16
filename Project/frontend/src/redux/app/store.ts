@@ -1,9 +1,9 @@
 import {configureStore} from '@reduxjs/toolkit'
-import zipSlice from '../features/zip-slice'
+import listingSlice from '../features/listings-slice'
 
 export const store = configureStore ({
     reducer: {
-        zip : zipSlice
+        listings : listingSlice
     }
 })
 

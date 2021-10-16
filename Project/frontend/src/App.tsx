@@ -1,17 +1,17 @@
-import { createContext, useState } from 'react';
 import './App.css';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import { Header } from './components/Header/Header'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Header } from './components/Header'
+import { Home } from './pages/Home/Home'
 
 function App() {
   return (
     <BrowserRouter>
-      <div className='App'>
+      <div className='App font-sans bg-yellow-50'>
         <Header/>
-        {/* <Switch>
-            <Route path="/" exact render={() => <Home setData={setData} data={data}/>}/>
-            <Route path={"/:code"} component={DetailsPage}/>
-        </Switch> */}
+        <Switch>
+            <Route path="/" component={Home}/>
+            {/* <Route path={"/:cde"} component={DetailsPage}/> */}
+        </Switch>
       </div>
     </BrowserRouter>
   );
