@@ -1,0 +1,16 @@
+{
+    "0": {
+    "id": "9384",
+    "name": "apple",
+    "price": 0.75,
+    "distance": 3.2,
+    "storageDays": 8
+    },
+   "1": {
+    "id": "0909",
+    "name": "orange",
+    "price": 1.25,
+    "distance": 2,
+    "storageDays": 5
+    }
+}
