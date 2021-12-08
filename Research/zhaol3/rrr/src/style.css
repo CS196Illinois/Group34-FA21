@@ -1,0 +1,78 @@
+body{
+    /*background-color: rgb(247, 239, 225);*/
+    background-image: url("bg.jpeg");
+}
+#icon{
+    position: relative;
+    color: rgb(13, 173, 13);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    left:40%;
+    font-size: 30px;
+    margin-top: 10px;
+}
+#profileIcon{
+    position:relative;
+
+}
+#fn {
+    border-radius: 5px;
+    background-color: rgb(146, 247, 213, 0.5);
+}
+#ln{
+    border-radius: 5px;
+    background-color: rgb(146, 247, 213, 0.5);
+}
+#email{
+    border-radius: 5px;
+    background-color: rgb(146, 247, 213, 0.5);
+}
+#pn{
+    border-radius: 5px;
+    background-color: rgb(146, 247, 213, 0.5);
+}
+#ad{
+    border-radius: 5px;
+    background-color: rgb(146, 247, 213, 0.5);
+}
+/*.headerBar{
+    top:0;
+    width:100%;
+    position:fixed;
+    overflow:hidden;
+    background-color: honeydew;
+}*/
+.profile{
+    position: relative;
+    margin: auto;
+    top: 40%;
+    width:60%;
+    /*border: 3px solid rgba(182, 181, 181, 0.5);*/
+    padding: 80px;
+    background-color: rgb(255, 235, 205, 0.5);
+    border-radius: 5px;
+
+}
+#saveButton{
+    background-color: salmon;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: antiquewhite;
+    font-size: 16px;
+    margin:4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    float: right;
+}
+#saveButton:hover{
+    background-color: rgb(247, 99, 83);
+}
+.float-container {
+    padding: 0px;
+}
+.float-child {
+    width:50%;
+    float:left;
+}
